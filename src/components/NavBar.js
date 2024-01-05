@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import React from 'react'
+import { FaRegCircleUser } from "react-icons/fa6";
+import { Link } from 'react-router-dom'
 
 function NavBar() {
   return (
@@ -12,6 +15,7 @@ function NavBar() {
         <button type="submit">Submit</button>
       </form>
       <i className="fa-regular fa-circle-user"></i>
+      <FaRegCircleUser className='user-icom'/>
     </div>
   );
 }
