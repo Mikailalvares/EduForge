@@ -29,4 +29,4 @@ function CourseTopics({ courses }) {
   );
 }
 
-export default CourseTopics
+export default CourseTopics;
